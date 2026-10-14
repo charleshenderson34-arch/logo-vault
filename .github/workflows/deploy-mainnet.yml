@@ -1,0 +1,40 @@
+name: Deploy 42 Assets to Aptos Mainnet
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy-mainnet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Aptos CLI
+        run: |
+          curl -sSf https://aptos.dev/scripts/install_cli.py | python3
+          echo "$HOME/.aptos/bin" >> $GITHUB_PATH
+
+      - name: Verify Aptos CLI Installation
+        run: aptos --version
+
+      - name: Execute Mainnet Emission Script
+        env:
+          APTOS_PRIVATE_KEY: ${{ secrets.APTOS_PRIVATE_KEY }}
+        run: |
+          python3 emit_mainnet.py
+          echo "[+] Mainnet JSON payloads generated successfully."
+
+      - name: Commit and Sync Manifest State
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add Manifest.json manifest.json mainnet_payloads.json
+          git diff --staged --quiet || git commit -m "Auto-sync mainnet asset state and payload registry [skip ci]"
+          git push origin main
