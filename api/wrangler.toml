@@ -1,0 +1,10 @@
+name = "bluelight-api"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+routes = [
+  { pattern = "api.bluelighttechcompany.com", custom_domain = true }
+]
+
+[vars]
+ATTEST_ADDRESS = "0x0646ac6bb528c4681da1dd4895fabf563b19840b7961003bd4c0c300ccf499ec"
