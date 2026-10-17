@@ -1,0 +1,506 @@
+[
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "BTC",
+      "BTC",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/btc.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "ETH",
+      "ETH",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/eth.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "SOL",
+      "SOL",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/sol.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "AAPL",
+      "AAPL",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/aapl.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "MSFT",
+      "MSFT",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/msft.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "GOLD",
+      "GOLD",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/gold.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "VOO",
+      "VOO",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/voo.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "XRP",
+      "XRP",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/xrp.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "NVDA",
+      "NVDA",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/nvda.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "LINK",
+      "LINK",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/link.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "GOOGL",
+      "GOOGL",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/googl.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "SILVER",
+      "SILVER",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/silver.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "BND",
+      "BND",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/bnd.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "DOGE",
+      "DOGE",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/doge.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "AMZN",
+      "AMZN",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/amzn.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "POLYGON",
+      "POLYGON",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/polygon.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "TSLA",
+      "TSLA",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/tsla.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "OIL",
+      "OIL",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/oil.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "VTI",
+      "VTI",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/vti.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "AVAX",
+      "AVAX",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/avax.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "META",
+      "META",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/meta.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "ARBITRUM",
+      "ARBITRUM",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/arbitrum.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "NFLX",
+      "NFLX",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/nflx.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "COPPER",
+      "COPPER",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/copper.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "SCHB",
+      "SCHB",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/schb.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "NEAR",
+      "NEAR",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/near.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "PYPL",
+      "PYPL",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/pypl.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "MANTA",
+      "MANTA",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/manta.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "AMD",
+      "AMD",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/amd.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "NATURAL_GAS",
+      "NATURAL_GAS",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/natural_gas.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "SPLG",
+      "SPLG",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/splg.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "OPTIMISM",
+      "OPTIMISM",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/optimism.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "INTEL",
+      "INTEL",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/intel.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "BASE",
+      "BASE",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/base.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "QUALCOMM",
+      "QUALCOMM",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/qualcomm.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "URANIUM",
+      "URANIUM",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/uranium.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "IVV",
+      "IVV",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/ivv.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "FANTOM",
+      "FANTOM",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/fantom.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "CISCO",
+      "CISCO",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/cisco.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "MOONBEAM",
+      "MOONBEAM",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/moonbeam.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "BROADCOM",
+      "BROADCOM",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/broadcom.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "PALLADIUM",
+      "PALLADIUM",
+      8,
+      "https://attest.bluelighttechcompany.com/icons/palladium.png",
+      "https://attest.bluelighttechcompany.com/Manifest.json"
+    ]
+  }
+]
