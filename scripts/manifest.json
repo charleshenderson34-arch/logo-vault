@@ -1,0 +1,671 @@
+{
+ "source": "https://assets.sentio.xyz/",
+ "files": [
+  {
+   "key": "chains/abstract.svg",
+   "size": 456,
+   "md5": "4e265f385560a72bb12303cfb739259a",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/aptos-dark.svg",
+   "size": 1000,
+   "md5": "8583d78133bf4439a0e538a03d91f700",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/aptos.svg",
+   "size": 554,
+   "md5": "f191fae5b3efadbe94fb186b8fb109d2",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/arbitrum.svg",
+   "size": 1034,
+   "md5": "d7af254327ec2fe15a492bfaa94b42d8",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/arc-dark.svg",
+   "size": 529,
+   "md5": "adb0077af55c25a01f9df3b668650c4b",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/arc.svg",
+   "size": 32702,
+   "md5": "5228892590e815b89be6a26a2cd31d9a",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/astar.svg",
+   "size": 6361,
+   "md5": "c51a672905b820379a48ecd15cc53cc7",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/aurora.svg",
+   "size": 242,
+   "md5": "b66bdc9fda36b96a220822b8af96a545",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/avalanche.svg",
+   "size": 807,
+   "md5": "d82cb1897846ed9db6922e47e8b730bb",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/b2.svg",
+   "size": 5396,
+   "md5": "95e59af3b2d4dbe29ffaddee6d67b9f6",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/base.svg",
+   "size": 236,
+   "md5": "2a95a21c65a29989472b4686bbedb7cb",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/base_blue.svg",
+   "size": 235,
+   "md5": "3ccf8e5e763b5cb06b9e0de59401900c",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/berachain.svg",
+   "size": 2188,
+   "md5": "d75e5eebda6631a672c5bd4532e6b1c5",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/bevm.svg",
+   "size": 9280,
+   "md5": "00b8c24ebcb24539746c6b041b79ff5a",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/bitcoin-testnet.svg",
+   "size": 659,
+   "md5": "56b329c82c17f60bdb080e661403d679",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/bitcoin.svg",
+   "size": 773,
+   "md5": "873dd532bb1f28d89ec24b95538509d9",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/bitlayer.png",
+   "size": 8775,
+   "md5": "5110e37ff17ef1260e40c42a14ce2adb",
+   "mime": "image/png"
+  },
+  {
+   "key": "chains/bitlayer.svg",
+   "size": 1012,
+   "md5": "159e62e60ab0efa2f475e17ecd40f464",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/blast-logo.png",
+   "size": 4878,
+   "md5": "4e2c701de3411c2bb46785a38a65c72b",
+   "mime": "image/png"
+  },
+  {
+   "key": "chains/bnb-chain.svg",
+   "size": 670,
+   "md5": "7a4d232979a3feb5303e6a41d74d5b6c",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/bob.svg",
+   "size": 612,
+   "md5": "f8c38fcd077d244011feeeccce3ba548",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/bsc.svg",
+   "size": 54818,
+   "md5": "2deab70955b0170a259b491723065a48",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/chain-unknown.webp",
+   "size": 3981,
+   "md5": "b95fda2da5dcd99a9b1b32bb017d58ac",
+   "mime": "image/webp"
+  },
+  {
+   "key": "chains/chiliz.svg",
+   "size": 530,
+   "md5": "9f6f56d2c3ae52ef58ab0e8ffe30c355",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/conflux-white.svg",
+   "size": 268,
+   "md5": "c05c97a5ae1a0c2073a8541cf9fa7f99",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/conflux.svg",
+   "size": 367,
+   "md5": "6c442e5b74b7b05559d494bc7d83be04",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/core.svg",
+   "size": 697,
+   "md5": "ff15538121b77d4b0945ee6bd5fdc984",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/corn.svg",
+   "size": 1233,
+   "md5": "6f5df69f174267e89d66f8e364820713",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/cronos.svg",
+   "size": 757,
+   "md5": "5a404a155b8b0a07934c636a6b7e0523",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/cronos_light.svg",
+   "size": 292,
+   "md5": "57beea1df0fdcb13c84d194007d5b24b",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/derive.svg",
+   "size": 674,
+   "md5": "0d72027d74f2cb0c5bf20ff64ca95188",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/eth-dark.svg",
+   "size": 254,
+   "md5": "dab918e0f77f665e38c01180038717f4",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/eth.svg",
+   "size": 235,
+   "md5": "25b3093bcd48ddd46baf969a9f6215fe",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/ethereum.svg",
+   "size": 319,
+   "md5": "6b5d9b0ff758295ffde125c28ded8aa3",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/etherlink.svg",
+   "size": 802,
+   "md5": "b7ef18633ffd843c092111348d731568",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/fantom.svg",
+   "size": 476,
+   "md5": "451be641adc35761cd568418b56f5c09",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/fogo-dark.png",
+   "size": 11796,
+   "md5": "332cf7c3534bb6a11199c5d24e68ffa5",
+   "mime": "image/png"
+  },
+  {
+   "key": "chains/fogo.png",
+   "size": 13314,
+   "md5": "c424c38cdb4a316ce0d1385be59a9122",
+   "mime": "image/png"
+  },
+  {
+   "key": "chains/fraxtal.svg",
+   "size": 825,
+   "md5": "a7a978256116594de7fe653d94ee167b",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/fuel.svg",
+   "size": 543,
+   "md5": "d7ca0b450a6b055a58de6bbe912c660a",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/fuel.webp",
+   "size": 17063,
+   "md5": "25499011d7c1ea6f5f36c08ce14fec47",
+   "mime": "image/webp"
+  },
+  {
+   "key": "chains/goat-dark.svg",
+   "size": 264,
+   "md5": "9c4c27b7ac27bef5ad609559305e0cf6",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/goat.svg",
+   "size": 261,
+   "md5": "783b3672bff34a07f0178c260c855f7f",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/goerli.svg",
+   "size": 964,
+   "md5": "d8eab1cb3f33f9179eea850a43247476",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/hemi.svg",
+   "size": 528,
+   "md5": "82adf66977bd9c11dffce13788edb9b9",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/hype-dark.svg",
+   "size": 326,
+   "md5": "daf20afefbb08923e02b94d2c8f6aa5a",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/hype.svg",
+   "size": 324,
+   "md5": "b5eaa60a87eb7f9b5ec2071ac98ed443",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/initia-echelon.svg",
+   "size": 433,
+   "md5": "4c39f6a4a2fe97585f91a0f5a3574398",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/injective.svg",
+   "size": 909,
+   "md5": "9df1d51f2760fceae22105cd4531a8cc",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/iota-dark.svg",
+   "size": 3672,
+   "md5": "4b754de13868e624f21372116ce39bcb",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/iota.svg",
+   "size": 3674,
+   "md5": "9638aea20ec452a37e93a56531845d36",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/karak.svg",
+   "size": 1059,
+   "md5": "492b31af593f96bc2af39804b4d79c16",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/katana.svg",
+   "size": 231,
+   "md5": "c2be517bbfb90202d63c9ef4983d48a2",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/kcc.svg",
+   "size": 1307,
+   "md5": "0924a1247412277985cdf64ad294f2c6",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/linea-dark.svg",
+   "size": 368,
+   "md5": "11719d984a1c5a942edcd180d7d8c04c",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/linea.svg",
+   "size": 353,
+   "md5": "675fd298e3b4c094730493e815cd3e5b",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/lumio.svg",
+   "size": 940,
+   "md5": "fc70f347e81e95ccce605d76dd62e045",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/manta.png",
+   "size": 21266,
+   "md5": "f8771d2a01df43ed4e0a919c88bfdd59",
+   "mime": "image/png"
+  },
+  {
+   "key": "chains/mantle-white.svg",
+   "size": 1449,
+   "md5": "f0f689ecb6e07b576b60b28b3fdeb116",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/mantle.svg",
+   "size": 1149,
+   "md5": "f2e95b0b6e6b9ee016d037c6ffe13510",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/megaeth-dark.svg",
+   "size": 653,
+   "md5": "97509e922b95c68994058cf66cd7621d",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/megaeth.svg",
+   "size": 652,
+   "md5": "b7142205df4f054a9bdfba55bdc7579c",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/merlin.png",
+   "size": 3156,
+   "md5": "2155b41cfefe519769ae51ff262a4c77",
+   "mime": "image/png"
+  },
+  {
+   "key": "chains/metis.svg",
+   "size": 1984,
+   "md5": "952788c094b1bc5b6983cec81755a9b1",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/mev-commit-dark.svg",
+   "size": 204,
+   "md5": "0abc06e44b9ea20bfc9f2492a1c351f0",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/mev-commit.png",
+   "size": 9499,
+   "md5": "ea1dd8baaccd75db39af0484fb2a537f",
+   "mime": "image/png"
+  },
+  {
+   "key": "chains/mev-commit.svg",
+   "size": 203,
+   "md5": "c9c0d65d23707bc483604887b109ccb9",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/mode-dark.svg",
+   "size": 295,
+   "md5": "8057b891faedfb730785b5d473a1db31",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/mode.svg",
+   "size": 296,
+   "md5": "2ed3bf322f093c4fb87550eb3bc78c4e",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/monad.svg",
+   "size": 283,
+   "md5": "1553f83c7f57d5f548a7b0f31c370ce7",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/moonbeam.svg",
+   "size": 817,
+   "md5": "904a422df14e61280bc2000d1a9a3f90",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/movement-dark.svg",
+   "size": 1941,
+   "md5": "bd98ec9ad2775beb69af93f4406313f4",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/movement.svg",
+   "size": 1922,
+   "md5": "7104fd5a2739f3818d5eaa5510908677",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/network-logo.png",
+   "size": 7815,
+   "md5": "5a26fead1cef501205fca49a57578d4f",
+   "mime": "image/png"
+  },
+  {
+   "key": "chains/okx-white.svg",
+   "size": 532,
+   "md5": "c65947dd5ebbaf37ce605f109f69ba8b",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/okx.svg",
+   "size": 484,
+   "md5": "a52a735eae9393eba1eef8e07ece3823",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/optimism.svg",
+   "size": 1282,
+   "md5": "bb57537a26263fc0c929f8aed158d591",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/plasma-dark.svg",
+   "size": 3202,
+   "md5": "056fcb221220e128115656bb794e655a",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/plasma.svg",
+   "size": 2769,
+   "md5": "167cca65bb96be86028303db5e42fd61",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/polygon.svg",
+   "size": 528,
+   "md5": "62badc1501d2fa2156582b9bfe984069",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/pyth-dark.svg",
+   "size": 509,
+   "md5": "58caac48c317e206ebfe577471f62bf8",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/pyth.svg",
+   "size": 510,
+   "md5": "d2690eb2c375f882a6117901ea70767f",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/robinhood-dark.svg",
+   "size": 770,
+   "md5": "89b96355570a7e4fc5b37c03248021ea",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/robinhood.svg",
+   "size": 776,
+   "md5": "c29466fe7e9eab8a740029a4c4001967",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/scroll.svg",
+   "size": 912,
+   "md5": "bf629fedb81e364a4c3f292986707de6",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/sei.svg",
+   "size": 1031,
+   "md5": "e6d9ca1c7be66d4424448df909e1c676",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/sentio-dark.svg",
+   "size": 679,
+   "md5": "82835695a8646811b941ab78094add41",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/sentio.svg",
+   "size": 692,
+   "md5": "98785184733b3be15152e56b985d2763",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/solana.svg",
+   "size": 1209,
+   "md5": "aa92d14b5cff26bbf6861a5c82a7c42e",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/soneium.svg",
+   "size": 761,
+   "md5": "8353072f0abd955e2041f33a92c072ac",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/sonic-dark.svg",
+   "size": 752,
+   "md5": "e1b189ade08ca82c43812c74ca02039c",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/sonic.svg",
+   "size": 751,
+   "md5": "29b3574e7d671c7f91ab79d1a3eeb7f4",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/stable-dark.svg",
+   "size": 564,
+   "md5": "2ed4f9fe0248363ffa58e19497f610a0",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/stable.svg",
+   "size": 562,
+   "md5": "277535c64af2638558d985b818871a6a",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/starknet.svg",
+   "size": 1569,
+   "md5": "0b641c29acba86a129045c71707b0a1c",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/sui-dark.svg",
+   "size": 683,
+   "md5": "9ed529057cbbac2e761948b1f7682dc9",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/sui.svg",
+   "size": 726,
+   "md5": "6f269030c9e1fd50b5e16e1d3c71fa08",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/swell.svg",
+   "size": 742,
+   "md5": "028072531a5606651cee6c01dc3b7d8d",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/tac.svg",
+   "size": 394,
+   "md5": "67ddfb36e9310148a0eb6f00dda5d67f",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/taiko.svg",
+   "size": 1179,
+   "md5": "2b6730be2dfe53c5767a1bfd4171014f",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/tron-dark.svg",
+   "size": 367,
+   "md5": "93e989daf6b5eac3d53375da524d1913",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/tron.svg",
+   "size": 369,
+   "md5": "bb7fdc4703f9ba7cc8ee6c9c72b00c09",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/unichain-testnet.svg",
+   "size": 738,
+   "md5": "6480e25c00146598890498ffe398b3ab",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/unichain.svg",
+   "size": 400,
+   "md5": "aa3869dc544a613d9f516c69cd4ade66",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/x1-logo.png",
+   "size": 2341,
+   "md5": "3d19681fafefaa028addb8c2f64bd70f",
+   "mime": "image/png"
+  },
+  {
+   "key": "chains/zircuit-green-icon.svg",
+   "size": 676,
+   "md5": "c8b74a3c173687fe3fcf85e4478d7c4f",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/zircuit-inverted-icon.svg",
+   "size": 680,
+   "md5": "0f08aa752505297940a1281367874941",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/zircuit.svg",
+   "size": 743,
+   "md5": "aea82e573f0b0bbb8d53352d77040c43",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/zklink.svg",
+   "size": 642,
+   "md5": "fb4d3c0e325b34bfbc1fad8b1089b9a2",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "chains/zksync.svg",
+   "size": 270,
+   "md5": "4eaa4d76c09b6f74624c3780fea1afdb",
+   "mime": "image/svg+xml"
+  },
+  {
+   "key": "logo/square-light-32.svg",
+   "size": 1305,
+   "md5": "76bdcc7d5b5b21fb7b4840e3026489aa",
+   "mime": "image/svg+xml"
+  }
+ ]
+}
