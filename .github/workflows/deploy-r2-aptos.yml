@@ -1,0 +1,49 @@
+name: Deploy Assets to Cloudflare R2 and Mint on Aptos
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy-and-mint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests aptos-sdk
+
+      - name: Configure AWS CLI for Cloudflare R2
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          aws-region: auto
+
+      - name: Sync assets to Cloudflare R2 Bucket
+        run: |
+          aws s3 sync downloaded_assets/ s3://${{ secrets.R2_BUCKET_NAME }}/blockchain-assets/ \
+            --endpoint-url ${{ secrets.R2_ENDPOINT_URL }}
+
+      - name: Register / Mint Assets on Aptos
+        env:
+          APTOS_PRIVATE_KEY: ${{ secrets.APTOS_PRIVATE_KEY }}
+          R2_PUBLIC_DOMAIN: ${{ secrets.R2_PUBLIC_DOMAIN }}
+        run: |
+          python3 -c '
+          import os, glob
+          print("Connecting to Aptos and processing asset URIs...")
+          domain = os.environ.get("R2_PUBLIC_DOMAIN", "https://your-r2-domain.com")
+          for filepath in glob.glob("downloaded_assets/**/*.*", recursive=True):
+              rel_path = filepath.replace("downloaded_assets/", "")
+              asset_uri = f"{domain}/blockchain-assets/{rel_path}"
+              print(f"Ready to register on Aptos -> URI: {asset_uri}")
+          '

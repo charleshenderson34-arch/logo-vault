@@ -6,7 +6,7 @@
 //
 // Env:
 //   APTOS_PRIVATE_KEY   your account's ed25519 private key (hex). Never share it.
-//   APTOS_NETWORK       testnet (default) | mainnet | devnet
+//   APTOS_NETWORK       mainnet (default) | mainnet | devnet
 //   LOGO_DIR            optional folder with the files (e.g. ./logos/chains/aptos.svg)
 //                       if set, files are read from disk instead of downloaded.
 //
@@ -107,7 +107,7 @@ async function main() {
 
   const keyHex = process.env.APTOS_PRIVATE_KEY;
   if (!keyHex) throw new Error("set APTOS_PRIVATE_KEY");
-  const network = (process.env.APTOS_NETWORK ?? "testnet") as Network;
+  const network = (process.env.APTOS_NETWORK ?? "mainnet") as Network;
   const aptos = new Aptos(new AptosConfig({ network }));
   const account = Account.fromPrivateKey({ privateKey: new Ed25519PrivateKey(keyHex) });
   const me = account.accountAddress.toString();
