@@ -46,3 +46,4 @@ Check what one file costs on testnet before running mainnet: storage is billed p
 | `transfer_vault` | owner | hand over the whole vault |
 | `vault_address`, `logo_address`, `logo_info`, `read_chunk` | anyone (views) | locate and read data |
 # logo-vault
+# logo-vault
