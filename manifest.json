@@ -1,224 +1,266 @@
 {
-  "$schema": "https://halo2.bluelighttechcompany.com/schemas/asset-manifest-v1.json",
-  "storage_provider": "Off-Chain Cloudflare Worker & GitHub Pages",
-  "network": "aptos_mainnet",
-  "signer": "0x29f0BD2beade4da353023ad96956Ac72E29a193C",
+  "$schema": "https://bluelighttechcompany.com",
+  "storage_provider": "Cloudflare R2 Storage Vault",
+  "timestamp": 1792972730,
+  "expires_at": 1793059130,
   "verification": {
     "algorithm": "SHA256 Merkle Tree",
-    "merkle_root": "0xea3803423384e3eddcedec168383ca363ba8a34d50876d2395ee83bceff1a5fe",
+    "merkle_root": "0xe7e723e98ac307efa8215bea346e2793705f91ac7af2d6bfa600d68e906665ac",
     "asset_count": 42,
-    "total_value_usd": 401354.0
+    "total_value_usd": 170878.405
   },
   "assets": [
     {
       "symbol": "BTC",
       "quantity": "2.5",
-      "leaf_hash": "0x215014f03c01784b03a689315ba4be16fdb77cd91385320817f19a1bfdbf5b57"
+      "price_usd": 1.0,
+      "value_usd": 2.5
     },
     {
       "symbol": "ETH",
       "quantity": "50.0",
-      "leaf_hash": "0x89479e9ac7b8586c779b6965ff71103560b3a16950f4d8e1320ee7dc5a644f0f"
+      "price_usd": 1.0,
+      "value_usd": 50.0
     },
     {
       "symbol": "SOL",
       "quantity": "160.0",
-      "leaf_hash": "0x5f93e6e2f61e3923871da0f802bdf4f897f590bf16f3894bcdb4d2d63a3c6e3a"
+      "price_usd": 1.0,
+      "value_usd": 160.0
     },
     {
       "symbol": "AAPL",
       "quantity": "100.0",
-      "leaf_hash": "0x985e626dbc4a57612c75024f52673524f61a518a01316d86953d9deba033dd5f"
+      "price_usd": 180.5,
+      "value_usd": 18050.0
     },
     {
       "symbol": "MSFT",
       "quantity": "25.0",
-      "leaf_hash": "0x18ff85c3aafe9f17ae7828efa4aa358d67dd956a8b7a0d73a1a99a4b6ca0c4b4"
+      "price_usd": 420.2,
+      "value_usd": 10505.0
     },
     {
       "symbol": "GOLD",
       "quantity": "4.25",
-      "leaf_hash": "0xe3058dfcb2f6828839602f1b4d470b0ca39bfe42180a7355c7594fed1bb641d2"
+      "price_usd": 2350.0,
+      "value_usd": 9987.5
     },
     {
       "symbol": "VOO",
       "quantity": "15.6",
-      "leaf_hash": "0xef7b58fa1a4e91d452e9b03a7253b9a9d8ddee481b2d7696e657c53ba71c3225"
+      "price_usd": 510.4,
+      "value_usd": 7962.24
     },
     {
       "symbol": "XRP",
       "quantity": "4500.0",
-      "leaf_hash": "0x4e18760d9f484d8ece8cb6c7497f28dc33a267078ca6038c991dcbdf361a1d3a"
+      "price_usd": 1.0,
+      "value_usd": 4500.0
     },
     {
       "symbol": "NVDA",
       "quantity": "10.0",
-      "leaf_hash": "0x11054ee6de0a2c47099aee3e589ca98ed02a356e900ed2ffb8c517099d3bff86"
+      "price_usd": 1.0,
+      "value_usd": 10.0
     },
     {
       "symbol": "LINK",
       "quantity": "240.0",
-      "leaf_hash": "0xc62116de94db1cb3cc8852b12a37664a7ce330d99b110c3da739138b34f148b5"
+      "price_usd": 1.0,
+      "value_usd": 240.0
     },
     {
       "symbol": "GOOGL",
       "quantity": "50.0",
-      "leaf_hash": "0x3a0728ea60826f9d16b49225ebb0fc7725e1a582f83c47f08664e4f08d85d51f"
+      "price_usd": 165.3,
+      "value_usd": 8265.0
     },
     {
       "symbol": "SILVER",
       "quantity": "100.0",
-      "leaf_hash": "0x57d99a3300c0814627ec153e80187f64453f8b99b4eab866df7bdf4c56185e44"
+      "price_usd": 28.5,
+      "value_usd": 2850.0
     },
     {
       "symbol": "BND",
       "quantity": "76.0",
-      "leaf_hash": "0xad3eeac7bd38130df52f85741715e2e49127dd0ba5527bd606d133d3d3216965"
+      "price_usd": 72.4,
+      "value_usd": 5502.400000000001
     },
     {
       "symbol": "DOGE",
       "quantity": "10000.0",
-      "leaf_hash": "0xf77ae3f654d0bbf715eaa3f55b4ddeff66ca6a2d4603b9ae117ad431167bca72"
+      "price_usd": 1.0,
+      "value_usd": 10000.0
     },
     {
       "symbol": "AMZN",
       "quantity": "83.0",
-      "leaf_hash": "0x89ce209ffcd5180e6dbf9555b9e1affe748d95699576c321dddb521240fb5ccc"
+      "price_usd": 185.1,
+      "value_usd": 15363.3
     },
     {
       "symbol": "POLYGON",
       "quantity": "5000.0",
-      "leaf_hash": "0x1c538f7ab84e101ab2f9c7268b5f89d145226813a88c546200dbed6c3797d6a1"
+      "price_usd": 1.0,
+      "value_usd": 5000.0
     },
     {
       "symbol": "TSLA",
       "quantity": "30.0",
-      "leaf_hash": "0x97c9571c75c68c83cf747330e7774c86b3cfac93a30fc01f2b8c83cfd1cc1339"
+      "price_usd": 220.4,
+      "value_usd": 6612.0
     },
     {
       "symbol": "OIL",
       "quantity": "87.5",
-      "leaf_hash": "0x00f94dc4933e501c1ec0847321083037baff979da820f2739293924fa8eb1bdb"
+      "price_usd": 75.3,
+      "value_usd": 6588.75
     },
     {
       "symbol": "VTI",
       "quantity": "18.75",
-      "leaf_hash": "0x54697b2743d89c240b4c5dc85fa447bf6e1ee02bdf2abd73ceee1a1c2883e813"
+      "price_usd": 260.4,
+      "value_usd": 4882.5
     },
     {
       "symbol": "AVAX",
       "quantity": "80.0",
-      "leaf_hash": "0xc0d51fbd5636f444a4c7cd70bdcc21c1078bb05953e212a4c1c694ea864e87ba"
+      "price_usd": 1.0,
+      "value_usd": 80.0
     },
     {
       "symbol": "META",
       "quantity": "7.0",
-      "leaf_hash": "0x148a75f3b41612e9af53151852524a14bacdb300aba2a83e02b4e6d7f8b99331"
+      "price_usd": 505.6,
+      "value_usd": 3539.2000000000003
     },
     {
       "symbol": "ARBITRUM",
       "quantity": "1500.0",
-      "leaf_hash": "0xeff568de168388c9240f2bb269de8b6dc9281bdaeca27ad3382110412b56ad09"
+      "price_usd": 1.0,
+      "value_usd": 1500.0
     },
     {
       "symbol": "NFLX",
       "quantity": "4.375",
-      "leaf_hash": "0xb8f1f85d6a6383368ea16f3398c6021bcd858f95621c5bc130daed32f119eed4"
+      "price_usd": 610.8,
+      "value_usd": 2672.25
     },
     {
       "symbol": "COPPER",
       "quantity": "950.0",
-      "leaf_hash": "0x69a71bf11488c4d3c71888e98a34228db4749873e91dd29f347146aa2e0929c3"
+      "price_usd": 4.5,
+      "value_usd": 4275.0
     },
     {
       "symbol": "SCHB",
       "quantity": "69.0",
-      "leaf_hash": "0x26d11fc0a1b0f10d4d45119a99e75f1a8ef2c8c2a61c14abadc2301b1f52ba45"
+      "price_usd": 60.1,
+      "value_usd": 4146.900000000001
     },
     {
       "symbol": "NEAR",
       "quantity": "240.0",
-      "leaf_hash": "0x155940ff18b80df11342ca9620af3187ee685200476bffeb6fcbd9d74ba37452"
+      "price_usd": 1.0,
+      "value_usd": 240.0
     },
     {
       "symbol": "PYPL",
       "quantity": "23.0",
-      "leaf_hash": "0x14ac09d7443af7deaeb4412146f6b8f51e157a3a59ba2ccffc03cc6753669914"
+      "price_usd": 1.0,
+      "value_usd": 23.0
     },
     {
       "symbol": "MANTA",
       "quantity": "1000.0",
-      "leaf_hash": "0x1cb2c3d757d51b6f6069273a4a74236ced1880c687f22892ed0950664879a649"
+      "price_usd": 1.0,
+      "value_usd": 1000.0
     },
     {
       "symbol": "AMD",
       "quantity": "10.0",
-      "leaf_hash": "0x260781dda201e080186d3a0c9cf79660f058a256a6f79a8cd696757b63e4560d"
+      "price_usd": 150.3,
+      "value_usd": 1503.0
     },
     {
       "symbol": "NATURAL_GAS",
       "quantity": "1750.0",
-      "leaf_hash": "0x01d2ce9c3b5a797b9d0e9727e01acec96309f894bb1662d006916ac26eda2e34"
+      "price_usd": 2.5,
+      "value_usd": 4375.0
     },
     {
       "symbol": "SPLG",
       "quantity": "85.0",
-      "leaf_hash": "0x629acdf3c56e702afc575404b0de5f7e7d6869eac9ad7753a8a26f4960629cea"
+      "price_usd": 62.3,
+      "value_usd": 5295.5
     },
     {
       "symbol": "OPTIMISM",
       "quantity": "600.0",
-      "leaf_hash": "0x48eccbeff98124822bb1f39dcaf68ee3e093a5ef47300b939995f22464533067"
+      "price_usd": 1.0,
+      "value_usd": 600.0
     },
     {
       "symbol": "INTEL",
       "quantity": "50.0",
-      "leaf_hash": "0x96ccffc2e80177e25520fcd37146fb490e2b7afdc4ae88ac147428eb08a2942f"
+      "price_usd": 30.15,
+      "value_usd": 1507.5
     },
     {
       "symbol": "BASE",
       "quantity": "800.0",
-      "leaf_hash": "0x96950920c4d59c5074cd1e54673376af51d06dc546e84f8994e861186a3cd1a7"
+      "price_usd": 1.0,
+      "value_usd": 800.0
     },
     {
       "symbol": "QUALCOMM",
       "quantity": "10.0",
-      "leaf_hash": "0x42a4becfdd461d3f36224ee33c1838bdf60cf1b746a2f03a6ab389c99617e134"
+      "price_usd": 165.4,
+      "value_usd": 1654.0
     },
     {
       "symbol": "URANIUM",
       "quantity": "50.0",
-      "leaf_hash": "0x4531c539e42a19c0d135fb64b520ec8c8f2db2854b92387b97304bd478819cb1"
+      "price_usd": 85.0,
+      "value_usd": 4250.0
     },
     {
       "symbol": "IVV",
       "quantity": "8.65",
-      "leaf_hash": "0xfb9cc740fc06c9692e5c29f7f95007e8b3f227a4a8bcdd8a6068b61fd2f5b14b"
+      "price_usd": 520.1,
+      "value_usd": 4498.865000000001
     },
     {
       "symbol": "FANTOM",
       "quantity": "1000.0",
-      "leaf_hash": "0x707c0ee9164c62241c9be54d518a1365cff53b2061288608d009ac2fb4a829b6"
+      "price_usd": 1.0,
+      "value_usd": 1000.0
     },
     {
       "symbol": "CISCO",
       "quantity": "20.0",
-      "leaf_hash": "0xdc4fe827bcd16a500cd6a72a67a425acf2abc43971f60495673d92f93bd2eedd"
+      "price_usd": 55.2,
+      "value_usd": 1104.0
     },
     {
       "symbol": "MOONBEAM",
       "quantity": "10000.0",
-      "leaf_hash": "0xd63bb6a475863e8597db023c9b302539c547082cfa34856b681c234a5668a3d7"
+      "price_usd": 1.0,
+      "value_usd": 10000.0
     },
     {
       "symbol": "BROADCOM",
       "quantity": "2.0",
-      "leaf_hash": "0x4e5660917e936dcd73c182f8668e7f3e03169fe9870716a9da6cbb98264dab0a"
+      "price_usd": 140.5,
+      "value_usd": 281.0
     },
     {
       "symbol": "PALLADIUM",
       "quantity": "2.0",
-      "leaf_hash": "0xffc840860506bb3927b62d8090905dfcd81d79e39e757836f27ab9bdc733290b"
+      "price_usd": 1.0,
+      "value_usd": 2.0
     }
   ]
 }

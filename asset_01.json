@@ -1,0 +1,8 @@
+{
+  "name": "Aptos Asset #1",
+  "description": "Minted via R2 and Wrangler",
+  "image": "https://yourdomain.com",
+  "attributes": [
+    { "trait_type": "Format", "value": "SVG" }
+  ]
+}

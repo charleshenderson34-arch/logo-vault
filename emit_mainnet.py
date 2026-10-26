@@ -2,9 +2,14 @@
 import urllib.request
 import json
 import sys
+import os
 
 MAINNET_API = "https://api.mainnet.aptoslabs.com/v1"
 EOA_ADDRESS = "0x29f0BD2beade4da353023ad96956Ac72E29a193C"
+
+# Your production Cloudflare R2 custom domain/public endpoint config
+R2_PUBLIC_DOMAIN = "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean"
+LOCAL_ASSETS_DIR = os.path.join("downloaded_assets", "chains")
 
 ASSETS = [
     ('BTC', '2.5'), ('ETH', '50.0'), ('SOL', '160.0'), ('AAPL', '100.0'),
@@ -35,7 +40,23 @@ def check_mainnet_account():
         print(f"  [!] Account query notice: {e}")
         return None
 
+def get_asset_extension(symbol):
+    """Dynamically matches file extensions against local storage contents."""
+    if not os.path.exists(LOCAL_ASSETS_DIR):
+        return "svg"
+    symbol_lower = symbol.lower()
+    for filename in os.listdir(LOCAL_ASSETS_DIR):
+        base, ext = os.path.splitext(filename)
+        if base.lower() == symbol_lower:
+            return ext.lstrip('.')
+    return "svg"
+
 def build_entry_payload(symbol, qty):
+    ext = get_asset_extension(symbol)
+    # Map directly to your public Cloudflare R2 file architecture URLs
+    r2_image_uri = f"{R2_PUBLIC_DOMAIN}/downloaded_assets/chains/{symbol.lower()}.{ext}"
+    r2_manifest_uri = f"{R2_PUBLIC_DOMAIN}/Manifest.json"
+    
     return {
         "type": "entry_function_payload",
         "function": f"{EOA_ADDRESS}::asset_registry::initialize_asset",
@@ -44,22 +65,22 @@ def build_entry_payload(symbol, qty):
             symbol,
             symbol,
             8,
-            f"https://attest.bluelighttechcompany.com/icons/{symbol.lower()}.png",
-            "https://attest.bluelighttechcompany.com/Manifest.json"
+            r2_image_uri,
+            r2_manifest_uri
         ]
     }
 
 if __name__ == "__main__":
     seq = check_mainnet_account()
-    print(f"\n[*] Generating 42 Mainnet Asset Transaction Payloads ($401,354.00 Total Value):")
+    print(f"\n[*] Generating 42 Cloudflare R2 Backed Asset Transaction Payloads ($401,354.00 Total Value):")
     
     payloads = []
     for sym, qty in ASSETS:
         payload = build_entry_payload(sym, qty)
         payloads.append(payload)
-        print(f"  + Prepared payload for: {sym} ({qty} units)")
+        print(f"  + Prepared R2 payload for: {sym} -> {payload['arguments'][3]}")
         
     with open("mainnet_payloads.json", "w") as f:
         json.dump(payloads, f, indent=2)
         
-    print("\n[+] Successfully saved all 42 payloads to 'mainnet_payloads.json'.")
+    print("\n[+] Successfully saved all 42 payloads with correct extensions and R2 backing to 'mainnet_payloads.json'.")

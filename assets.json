@@ -1,0 +1,18 @@
+{
+  "bitcoin": {
+    "name": "Bitcoin Asset",
+    "description": "Logo vault asset backing for Bitcoin Network",
+    "uri": "https://yourdomain.com"
+  },
+  "ethereum": {
+    "name": "Ethereum Asset",
+    "description": "Logo vault asset backing for Ethereum Network",
+    "uri": "https://yourdomain.com"
+  },
+  "aptos": {
+    "name": "Aptos Asset",
+    "description": "Logo vault asset backing for Aptos Network",
+    "uri": "https://yourdomain.com"
+  }
+}
+

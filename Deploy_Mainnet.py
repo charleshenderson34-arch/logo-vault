@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Mainnet deployer for nexus_portfolio::asset_registry (42 assets).
-Configured to use attest.bluelighttechcompany.com and Aptos Mainnet endpoints."""
+Configured to use Cloudflare R2 and Aptos Mainnet endpoints."""
 import json, urllib.request
 from decimal import Decimal
 
 MAINNET_API_URL = "https://api.mainnet.aptoslabs.com/v1"
 DECIMALS = 8
-PROJECT_URI = "https://attest.bluelighttechcompany.com/Manifest.json"
+# Updated to your production Cloudflare R2 public endpoint path
+PROJECT_URI = "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean"
 SIGNER_ADDRESS = "0x29f0BD2beade4da353023ad96956Ac72E29a193C"
 
 # Your 42 Actual Assets ($401,354.00 total value)
@@ -27,7 +28,7 @@ ASSETS = [
 def generate_manifest():
     manifest = {
         "$schema": "https://halo2.bluelighttechcompany.com/schemas/asset-manifest-v1.json",
-        "storage_provider": "GitHub Pages & Cloudflare",
+        "storage_provider": "Cloudflare R2 Storage Vault",
         "bucket_uri": PROJECT_URI,
         "network": "aptos_mainnet",
         "signer": SIGNER_ADDRESS,
@@ -41,7 +42,7 @@ def generate_manifest():
     }
     with open("Manifest.json", "w") as f:
         json.dump(manifest, f, indent=2)
-    print("[+] Generated mainnet-ready Manifest.json linked to attest.bluelighttechcompany.com")
+    print("[+] Generated mainnet-ready Manifest.json linked to Cloudflare R2")
 
 if __name__ == "__main__":
     print(f"[*] Initializing Mainnet config for {SIGNER_ADDRESS}...")

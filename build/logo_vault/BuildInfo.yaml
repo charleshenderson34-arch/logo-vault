@@ -9,14 +9,15 @@ compiled_package_info:
     aptos_token: "0000000000000000000000000000000000000000000000000000000000000003"
     aptos_token_objects: "0000000000000000000000000000000000000000000000000000000000000004"
     core_resources: 000000000000000000000000000000000000000000000000000000000a550c18
-    logo_vault: 2b4122bf49602fbe61a53d8448ab4000cdce568c716ca002eb18b94070756c37
+    logo_vault: c3c57104b5f8b6ccb06168b2ac5efa3591beaafb79d80b0cf16d426a21c5fd10
+    logo_vault_addr: c3c57104b5f8b6ccb06168b2ac5efa3591beaafb79d80b0cf16d426a21c5fd10
     std: "0000000000000000000000000000000000000000000000000000000000000001"
     vm: "0000000000000000000000000000000000000000000000000000000000000000"
     vm_reserved: "0000000000000000000000000000000000000000000000000000000000000000"
-  source_digest: D6382AC4BDE1B9741CBF9F7F8B0F53BFFF975F31650815119787454BDD6AFFDB
+  source_digest: 3B688E74D0C8729C0D2F0B3BDC3054A526B9FA0EC7D29E31D485FF95106D4AA1
   build_flags:
-    dev_mode: true
-    test_mode: true
+    dev_mode: false
+    test_mode: false
     verify_mode: false
     override_std: ~
     generate_docs: false
@@ -26,7 +27,7 @@ compiled_package_info:
     install_dir: ~
     force_recompilation: false
     additional_named_addresses:
-      logo_vault: 2b4122bf49602fbe61a53d8448ab4000cdce568c716ca002eb18b94070756c37
+      logo_vault_addr: c3c57104b5f8b6ccb06168b2ac5efa3591beaafb79d80b0cf16d426a21c5fd10
     forced_named_addresses: {}
     fetch_deps_only: false
     skip_fetch_latest_git_deps: false

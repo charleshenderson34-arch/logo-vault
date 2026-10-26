@@ -4,8 +4,9 @@ version = "1.0.0"
 authors = []
 
 [addresses]
-logo_vault = "_"
-
+std = "0x1"
+logo_vault = "0xc3c57104b5f8b6ccb06168b2ac5efa3591beaafb79d80b0cf16d426a21c5fd10"
+logo_vault_addr = "0xc3c57104b5f8b6ccb06168b2ac5efa3591beaafb79d80b0cf16d426a21c5fd10"
 [dependencies]
 AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-framework" }
 AptosTokenObjects = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-token-objects" }

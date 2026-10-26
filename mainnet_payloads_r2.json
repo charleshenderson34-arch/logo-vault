@@ -1,0 +1,506 @@
+[
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "BTC",
+      "BTC",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/btc.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "ETH",
+      "ETH",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/eth.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "SOL",
+      "SOL",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/sol.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "AAPL",
+      "AAPL",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/aapl.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "MSFT",
+      "MSFT",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/msft.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "GOLD",
+      "GOLD",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/gold.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "VOO",
+      "VOO",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/voo.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "XRP",
+      "XRP",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/xrp.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "NVDA",
+      "NVDA",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/nvda.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "LINK",
+      "LINK",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/link.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "GOOGL",
+      "GOOGL",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/googl.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "SILVER",
+      "SILVER",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/silver.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "BND",
+      "BND",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/bnd.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "DOGE",
+      "DOGE",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/doge.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "AMZN",
+      "AMZN",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/amzn.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "POLYGON",
+      "POLYGON",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/polygon.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "TSLA",
+      "TSLA",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/tsla.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "OIL",
+      "OIL",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/oil.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "VTI",
+      "VTI",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/vti.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "AVAX",
+      "AVAX",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/avax.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "META",
+      "META",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/meta.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "ARBITRUM",
+      "ARBITRUM",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/arbitrum.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "NFLX",
+      "NFLX",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/nflx.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "COPPER",
+      "COPPER",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/copper.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "SCHB",
+      "SCHB",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/schb.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "NEAR",
+      "NEAR",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/near.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "PYPL",
+      "PYPL",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/pypl.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "MANTA",
+      "MANTA",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/manta.png",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "AMD",
+      "AMD",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/amd.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "NATURAL_GAS",
+      "NATURAL_GAS",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/natural_gas.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "SPLG",
+      "SPLG",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/splg.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "OPTIMISM",
+      "OPTIMISM",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/optimism.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "INTEL",
+      "INTEL",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/intel.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "BASE",
+      "BASE",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/base.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "QUALCOMM",
+      "QUALCOMM",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/qualcomm.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "URANIUM",
+      "URANIUM",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/uranium.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "IVV",
+      "IVV",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/ivv.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "FANTOM",
+      "FANTOM",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/fantom.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "CISCO",
+      "CISCO",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/cisco.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "MOONBEAM",
+      "MOONBEAM",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/moonbeam.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "BROADCOM",
+      "BROADCOM",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/broadcom.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  },
+  {
+    "type": "entry_function_payload",
+    "function": "0x29f0BD2beade4da353023ad96956Ac72E29a193C::asset_registry::initialize_asset",
+    "type_arguments": [],
+    "arguments": [
+      "PALLADIUM",
+      "PALLADIUM",
+      8,
+      "https://9dcc6dd59d55b7066026b0962f822e4f.r2.cloudflarestorage.com/agave-clean/downloaded_assets/chains/palladium.svg",
+      "https://yourdomain.com/Manifest.json"
+    ]
+  }
+]
