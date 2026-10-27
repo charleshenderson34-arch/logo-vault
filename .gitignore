@@ -4,3 +4,7 @@ node_modules/
 build/
 .venv*/
 .wrangler/
+node_modules/
+.aptos/
+.env
+.dev.vars
