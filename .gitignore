@@ -8,3 +8,5 @@ node_modules/
 .aptos/
 .env
 .dev.vars
+.venv/
+__pycache__/
